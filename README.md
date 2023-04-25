@@ -2,9 +2,9 @@
 
 A technical challenge for Veri-Farma.
 
-Build using Vue3, Nuxt3, & Firebase.
+Built using Vue3, Nuxt3 & Firebase9.
 
-Focus in modularization and scability.
+With focus in modularization and scability.
 
 # Demo
 
