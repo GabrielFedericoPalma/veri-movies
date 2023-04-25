@@ -49,7 +49,7 @@ async function login() {
                         {{ titleSwitch }}
                     </p>
                     <p>
-                        <small>v 1.0.2</small>
+                        <small>v 1.0.3</small>
                     </p>
                 </form>
             </section>
