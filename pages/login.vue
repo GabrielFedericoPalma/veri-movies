@@ -37,8 +37,7 @@ async function login() {
         <Teleport to="body">
             <section class="bg" >
                 <form @submit.prevent="login">
-                    <h1>Veri-Movies</h1>
-                    <h2>{{ titleMode }}</h2>
+                    <h1>{{ titleMode }}</h1>
                     <input type="email" name="email" required v-model="creds.email" >
                     <input type="password" name="password" required v-model="creds.password" >
                     <button type="submit" >{{ titleMode }}</button>
@@ -49,7 +48,7 @@ async function login() {
                         {{ titleSwitch }}
                     </p>
                     <p>
-                        <small>v 1.0.3</small>
+                        <small>v 1.0.4</small>
                     </p>
                 </form>
             </section>
@@ -65,8 +64,7 @@ section form {width: 100%; max-width: 20rem; background: rgba(0, 0, 0, 0.863); p
 section form p {text-align: center;  margin:0.5rem}
 section form button {cursor: pointer; min-width: 125px; margin-bottom: 1.5rem;}
 p.switch {cursor: pointer; text-decoration: underline;}
-form h1 {margin-bottom: 0;font-weight: 500;}
-form h2 {margin-bottom: 1rem; font-size: 21px; text-align: center;}
+form h1 {margin-bottom: 1rem; font-size: 21px; text-align: center;}
 form input, form button {padding: 0.5rem; margin: 0.5rem auto; background-color: black; border-radius: 8px; border: 1px solid}
 form input {min-width: 245px;}
 form button:hover {opacity: 0.8}

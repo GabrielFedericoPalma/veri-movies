@@ -18,10 +18,8 @@ export default function() {
     const authState = () => {
         return new Promise((resolve, reject) => {
           onAuthStateChanged($auth, usr => {
-            if (usr) {
-                user.value = usr
-            }
-            resolve(usr)
+                user.value = usr            
+                resolve(usr)
           }, e => reject(e));
         })
     }

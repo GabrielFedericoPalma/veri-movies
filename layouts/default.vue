@@ -12,7 +12,7 @@
 </script>
 
 <template>
-    <Nav v-if="user" />
+    <Nav />
     <div class="container" >
         <main>
             <slot />

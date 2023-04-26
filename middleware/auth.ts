@@ -1,10 +1,10 @@
-const { authState, user } = useFirebaseAuth()
+const { authState } = useFirebaseAuth()
 
 export default defineNuxtRouteMiddleware(() => {
    
     (async function() {
-        await authState()
-        if(user){
+        const ok = await authState()
+        if(ok){
             return navigateTo('/')
         }else {
             return navigateTo('/login')

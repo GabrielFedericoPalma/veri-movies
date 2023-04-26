@@ -7,7 +7,7 @@
     <nav>
         <section class="container" >
             <NuxtLink to="/" title="Veri-Movies" ><h1>Veri-Movies</h1></NuxtLink>
-            <p><small v-show="isDesktop" >{{ user.email }}</small><br><small @click="logout" class="logout" >Logout</small> </p>
+            <p v-if="user" ><small v-show="isDesktop" >{{ user.email }}</small><br><small @click="logout" class="logout" >Logout</small> </p>
         </section>
     </nav>
 </template>
