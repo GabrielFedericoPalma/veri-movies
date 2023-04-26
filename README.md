@@ -8,9 +8,9 @@ With focus in modularization and scability.
 
 # Demo
 
-Look at the [demo](https://veri-movies.web.app).
+Look at the [demo](https://veri-movies.web.app/login).
 
-You need to create a user to access.
+Create a user to login.
 
 # Nuxt 3 Minimal Starter
 
